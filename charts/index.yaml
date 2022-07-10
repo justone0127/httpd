@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  httpd-ex:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-10T16:52:07.072799613Z"
+    description: A Helm chart for Kubernetes - Hana Bank Standard Template
+    digest: 145e1fccfe26565ad0ce450f1b8b4aedc43782b13fef75774f36b146e36532fb
+    name: httpd-ex
+    type: application
+    urls:
+    - httpd-ex-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-07-10T16:52:07.072416557Z"

@@ -1,0 +1,19 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: httpd-24-rhel8
+  labels:
+    app: httpd-24-rhel8
+    app.kubernetes.io/component: httpd-24-rhel8
+    app.kubernetes.io/instance: httpd-24-rhel8
+    app.kubernetes.io/part-of: httpd-24-rhel8-app
+    app.openshift.io/runtime-version: latest
+spec:
+  to:
+    kind: Service
+    name: httpd-24-rhel8
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  wildcardPolicy: None
+
