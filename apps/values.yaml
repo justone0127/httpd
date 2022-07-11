@@ -5,7 +5,7 @@
 replicas: 1
 
 image:
-  registry: registry.redhat.io
-  repository: rhel8/httpd-24
+  registry: ocp-registry-quay-quay.apps.cluster-18cd.sandbox567.opentlc.com
+  repository: admin/httpd-24
   tag: "latest"
 
